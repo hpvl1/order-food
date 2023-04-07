@@ -1,11 +1,13 @@
 <script setup>
+import Order from './views/Order.vue';
 </script>
 
 <template>
   <div>
+    <Suspense>
+      <Order />
+    </Suspense>
   </div>
-  <!-- <HelloWorld msg="Vite + Vue" /> -->
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
